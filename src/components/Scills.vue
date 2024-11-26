@@ -56,6 +56,7 @@ h1{
 	justify-content: center;
 	display: flex;
 	font-size: 30px;
+	padding-top: 120px;
 }
 .container {
 	display: flex;

@@ -28,28 +28,28 @@ export default {
   components: { InfoText },
   methods: {
     scrollAbout() {
-		const scrollAmount = window.innerWidth <= 900 ? 850 : 800;
+		const scrollAmount = window.innerWidth <= 900 ? 850 : 700;
 		window.scrollBy({
         top: scrollAmount,
         behavior: 'smooth'
 		})
       },
 		scrollProject() {
-			const scrollAmount = window.innerWidth <= 900 ? 1340 : 1250;
+			const scrollAmount = window.innerWidth <= 900 ? 1320 : 1320;
 			window.scrollBy({
 				top: scrollAmount,
 				behavior:'smooth'
 			})
 		},
 		scroolSkills() {
-			const scrollAmount = window.innerWidth <= 900 ? 3000 : 1550;
+			const scrollAmount = window.innerWidth <= 900 ? 3000 : 1750;
 			window.scrollBy({
 				top: scrollAmount,
 				behavior: 'smooth'
 			})
 		},
 		scrollContact() {
-			const scrollAmount = window.innerWidth <= 900 ? 3700 : 1765;
+			const scrollAmount = window.innerWidth <= 900 ? 3700 : 1850;
 			window.scrollBy({
 				top: scrollAmount,
 				behavior: 'smooth'

@@ -26,11 +26,11 @@ export default {
   },
   methods: {
     downloadFile() {
-      const fileUrl = '/src/icons/kolya.txt'
+      const fileUrl = 'src/public/kolyazh.pdf'
 
       const link = document.createElement('a')
       link.href = fileUrl
-      link.download = 'kolya.txt'
+      link.download = 'kolyazh.pdf'
       link.click()
     },
   },
